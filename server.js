@@ -51,6 +51,9 @@ app.get('/bad', (req, res) => {
 app.get('/help', (req, res) => {
   res.render('help.hbs');
 });
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs');
+});
 ///////////////////////////////////
 ///////////////////////////////////
 app.listen(port, () => {
